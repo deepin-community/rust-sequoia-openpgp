@@ -1,22 +1,36 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: sequoia-openpgp
+Upstream-Contact:
+ Igor Matuszewski <igor@sequoia-pgp.org>
+ Juga <juga@sequoia-pgp.org>
+ Justus Winter <justus@sequoia-pgp.org>
+ Kai Michaelis <kai@sequoia-pgp.org>
+ Neal H. Walfield <neal@sequoia-pgp.org>
+ Nora Widdecke <nora@sequoia-pgp.org>
+ Wiktor Kwapisiewicz <wiktor@sequoia-pgp.org>
+Source: https://gitlab.com/sequoia-pgp/sequoia
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Copyright:
+ 2020 Igor Matuszewski <igor@sequoia-pgp.org>
+ 2019 Juga <juga@sequoia-pgp.org>
+ 2017-2024 Justus Winter <justus@sequoia-pgp.org>
+ 2018-2020 Kai Michaelis <kai@sequoia-pgp.org>
+ 2017-2024 Neal H. Walfield <neal@sequoia-pgp.org>
+ 2020-2022 Nora Widdecke <nora@sequoia-pgp.org>
+ 2020-2022 Wiktor Kwapisiewicz <wiktor@sequoia-pgp.org>
+License: LGPL-2+
+
+Files: debian/*
+Copyright:
+ 2019-2024 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2019-2024 Alexander Kjäll <alexander.kjall@gmail.com>
+ 2019-2024 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+ 2019-2024 Holger Levsen <holger@debian.org>
+License: LGPL-2+
+
+License: LGPL-2+
+ This program can be redistributed under the GNU Lesser General Public
+ License version 2 or (at your option) any later version.
  .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Debian systems provide the LGPL v2 in /usr/share/common-licenses/LGPL-2
