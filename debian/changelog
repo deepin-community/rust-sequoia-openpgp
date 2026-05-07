@@ -1,3 +1,11 @@
+rust-sequoia-openpgp (2.0.0-2deepin1) unstable; urgency=medium
+
+  * Fix CVE-2025-67897: Fix underflow in aes_key_unwrap function
+    - An attacker could trigger a panic by sending a victim an encrypted
+      message with a specially modified PKESK or SKESK packet.
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 08 May 2026 03:12:00 +0800
+
 rust-sequoia-openpgp (2.0.0-2) unstable; urgency=medium
 
   * Team upload.
