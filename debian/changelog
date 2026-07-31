@@ -1,3 +1,11 @@
+rust-sequoia-openpgp (2.0.0-2+deb13u1) trixie; urgency=medium
+
+  * Add upstream commit b59886e5 (via debian/patches, edited to apply cleanly)
+    to fix an underflow in aes_key_unwrap / CVE-2025-67897 to prevent DOS
+    (crash) via special crafted encrypted messages. Closes: #1122582.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 22 Dec 2025 16:27:34 +0100
+
 rust-sequoia-openpgp (2.0.0-2) unstable; urgency=medium
 
   * Team upload.
